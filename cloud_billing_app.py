@@ -5,7 +5,7 @@ import plotly.graph_objects as go
 from datetime import datetime
 import json
 
-# Page configurations
+# Page configurationss
 st.set_page_config(
     page_title="Cloud Billing Calculator",
     page_icon="☁️",
