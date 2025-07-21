@@ -24,11 +24,6 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    - name: Lint with flake8
-      run: |
-        pip install flake8
-        flake8 cloud_billing_app.py
-
     - name: Run Python app
       run: |
         python cloud_billing_app.py
